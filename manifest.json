@@ -1,6 +1,7 @@
 [
     {
         "category": "Metadata",
+         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opensubtitles.png",
         "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
         "name": "Open Subtitles",
         "description": "Download subtitles from the internet to use with your media files.",
