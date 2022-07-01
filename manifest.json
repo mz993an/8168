@@ -1,20 +1,119 @@
 [
     {
-        "category": "Metadata",
-         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opensubtitles.png",
         "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
         "name": "Open Subtitles",
         "description": "Download subtitles from the internet to use with your media files.",
-        "owner": "jellyfin",
         "overview": "Download subtitles for your media",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opensubtitles.png",
         "versions": [
             {
-                "checksum": "9154f9a36248a2e8dead09e52291206a",
+                "version": "18.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Fix pagination (#92) @MBR-0001\n\n### Tests ###\n- Minor improvements (#90) @Bond-009\n\n### Code or Repo Maintenance ###\n- Use meta ci (#101) @crobibero\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n- Minor improvements (#90) @Bond-009\n- Replace %20 with + in SearchSubtitlesAsync (#89) @MBR-0001\n- Implement Bad Gateway handling & code cleanup (#87) @MBR-0001\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n\n### CI & build changes ###\n- Use meta ci (#101) @crobibero",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_18.0.0.0.zip",
+                "checksum": "9154f9a36248a2e8dead09e52291206a",
                 "timestamp": "2022-03-28T00:04:24Z"
-                "version": "10.8.0.0",
+            },
+            {
+                "version": "17.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Move OpenSubtitlesHandler project to folder (#85) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_17.0.0.0.zip",
+                "checksum": "a4adafc1c813f720773ffe7cc4455645",
+                "timestamp": "2022-01-08T17:24:29Z"
+            },
+            {
+                "version": "12.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fixes, language improvements, code cleanup & error logging (#67) @MBR-0001",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_12.0.0.0.zip",
+                "checksum": "3244dc49e494bfcf66b783660b7a5a17",
+                "timestamp": "2021-10-21T04:49:46Z"
+            },
+            {
+                "version": "11.0.0.0",
+                "changelog": "### Major features and improvements ###\n- Switch to new API (#54) @MBR-0001\n\n### New features and improvements ###\n- chore: plugin images (#50) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#45) @dependabot\n\n### CI & build changes ###\n- Update ci (#55) @h1dden-da3m0n\n- chore(ci): builds, releas drafter and more (#42) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- Add analyzers, remove all warnings (#61) @crobibero\n- Remove jquery and update to es6 (#51) @grafixeyehero\n- Add analyzers (#44) @crobibero",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_11.0.0.0.zip",
+                "checksum": "30b5ae5d6e0deab03364d1d861cdd911",
+                "timestamp": "2021-08-28T18:42:32Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_10.0.0.0.zip",
+                "checksum": "ed99d03ec463bf15fca1256a113f57b4",
+                "timestamp": "2020-12-05T21:56:19Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_9.0.0.0.zip",
+                "checksum": "16789b26497cea0509daf6b18c579340",
+                "timestamp": "2020-07-20T01:32:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "5c534381-91a3-43cb-907a-35aa02eb9d2c",
+        "name": "Playback Reporting",
+        "description": "Collect and show user play statistics",
+        "overview": "Collect and show user play statistics",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-playbackreporting.png",
+        "versions": [
+            {
+                "version": "12.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#59) @crobibero\n- Use meta ci (#57) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#57) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_12.0.0.0.zip",
+                "checksum": "6282c85380c4ab75bded1a2f0850fba6",
+                "timestamp": "2022-03-27T20:34:12Z"
+            },
+            {
+                "version": "11.0.0.0",
+                "changelog": "- chore(deps): bump SQLitePCL.pretty.netstandard from 2.1.0 to 2.2.0 (#40) @dependabot\n\n### New features and improvements ###\n- chore: plugin images (#41) @h1dden-da3m0n\n\n### CI & build changes ###\n- Update ci (#45) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- 10.8 (#49) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_11.0.0.0.zip",
+                "checksum": "d750a6b41799142370fa2f40c70fea9d",
+                "timestamp": "2022-01-08T17:24:44Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "* Fix query to PlayActivity endpoint on User Playback Report (#35) @Stampede10343 * Feature/client timezone awareness (#37) @Stampede10343\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_10.0.0.0.zip",
+                "checksum": "b56ad6715336a363d4477eb40d668491",
+                "timestamp": "2021-04-12T14:12:57Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_9.0.0.0.zip",
+                "checksum": "ca323b3dcb2cb86cc2e72a7a0f1eee22",
+                "timestamp": "2020-12-05T22:15:48Z"
+            },
+            {
+                "version": "8.0.0.0",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_8.0.0.0.zip",
+                "checksum": "58644c505586542ef0b8b65e2f704bd1",
+                "timestamp": "2020-11-18T03:01:51Z"
+            },
+            {
+                "version": "7.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_7.0.0.0.zip",
+                "checksum": "6a361ef33bca97f9155856d02ff47380",
+                "timestamp": "2020-07-20T01:32:09Z"
             }
         ]
     }
